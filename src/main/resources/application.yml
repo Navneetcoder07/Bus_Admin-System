@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  datasource:
+   url: jdbc:mysql://localhost:3306/admin-bus-app?createDatabaseIfNotExist=true
+   username: root
+   password: Navneet@1997
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    properties:
+      hibernate:
+      formate_sql: true 
+    show-sql: true       
+   
+        
+      
+        
